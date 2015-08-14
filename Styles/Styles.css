@@ -1,0 +1,54 @@
+header {
+    background-color: #C0C0C0;
+    width: 844px;
+    height: 86px;
+}
+
+* {
+    font-family: Arial;
+}
+
+h1 {
+    font-size: 20px;
+}
+
+#PageWrapper {
+    width: 844px;
+    margin: auto;
+}
+
+nav {
+    width: 844px;
+}
+
+section#MainContent {
+    width: 644px;
+    float: left;
+}
+
+aside {
+    background-color: gray;
+    width: 180px;
+    float: left;
+}
+
+footer {
+    background-color: #C0C0C0;
+    width: 844px;
+    clear: both;
+}
+
+section#MainContent a {
+    color: #4cff00;
+    text-decoration: underline;
+}
+
+    section#MainContent a:visited {
+        color: #FF0000;
+        text-decoration: underline;
+    }
+
+    section#MainContent a:hover {
+        color: #FFA500;
+        text-decoration: underline;
+    }
