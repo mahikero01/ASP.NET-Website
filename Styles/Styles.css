@@ -11,6 +11,11 @@ header {
 h1 {
     font-size: 20px;
 }
+.Introduction {
+            font-style: italic;
+            color: #003399;
+
+        }
 
 #PageWrapper {
     width: 844px;
@@ -52,3 +57,8 @@ section#MainContent a {
         color: #FFA500;
         text-decoration: underline;
     }
+h1 {
+    font-size: 20px;
+    padding: 0;
+    margin-bottom: 10px;
+}
