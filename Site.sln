@@ -3,25 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Site", ".", "{B38D7855-AD61-44FD-855E-F524C1CBA3EB}"
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Site", "..\..\..\..\..\..\BegASPNET\Site\", "{B38D7855-AD61-44FD-855E-F524C1CBA3EB}"
 	ProjectSection(WebsiteProperties) = preProject
 		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5.1"
 		Debug.AspNetCompiler.VirtualPath = "/localhost_53751"
-		Debug.AspNetCompiler.PhysicalPath = "..\Site\"
+		Debug.AspNetCompiler.PhysicalPath = "..\..\..\..\..\..\BegASPNET\Site\"
 		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_53751\"
 		Debug.AspNetCompiler.Updateable = "true"
 		Debug.AspNetCompiler.ForceOverwrite = "true"
 		Debug.AspNetCompiler.FixedNames = "false"
 		Debug.AspNetCompiler.Debug = "True"
 		Release.AspNetCompiler.VirtualPath = "/localhost_53751"
-		Release.AspNetCompiler.PhysicalPath = "..\Site\"
+		Release.AspNetCompiler.PhysicalPath = "..\..\..\..\..\..\BegASPNET\Site\"
 		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_53751\"
 		Release.AspNetCompiler.Updateable = "true"
 		Release.AspNetCompiler.ForceOverwrite = "true"
 		Release.AspNetCompiler.FixedNames = "false"
 		Release.AspNetCompiler.Debug = "False"
 		VWDPort = "53751"
-		SlnRelativePath = "..\Site\"
+		SlnRelativePath = "..\..\..\..\..\..\BegASPNET\Site\"
 	EndProjectSection
 EndProject
 Global
