@@ -10,6 +10,12 @@
     <form id="form1" runat="server">
     <div>
     
+        Your Name
+        <asp:TextBox ID="YourName" runat="server"></asp:TextBox>
+        <asp:Button ID="SubmitButton" runat="server" Text="Submit Information" />
+        <br />
+        <asp:Label ID="Result" runat="server"></asp:Label>
+    
     </div>
     </form>
 </body>
