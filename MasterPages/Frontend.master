@@ -4,17 +4,26 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
+
     <title></title>
     <asp:ContentPlaceHolder id="head" runat="server">
     </asp:ContentPlaceHolder>
+    <script src="/Scripts/modernizr-2.7.1.js"></script>
+    <link href="../Styles/Styles.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
     <form id="form1" runat="server">
-    <div>
-        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
-        
-        </asp:ContentPlaceHolder>
-    </div>
+        <div id="PageWrapper">
+            <header><a href="/">Header Goes Here</a></header>
+            <nav>Menu Goes Here</nav>
+            <section>
+                <asp:ContentPlaceHolder id="cpMainContent" runat="server">
+
+                </asp:ContentPlaceHolder>
+            </section>
+            <aside id="Sidebar">Sidebar Goes Here</aside>
+            <footer>Footer Goes Here</footer>
+        </div>
     </form>
 </body>
 </html>
