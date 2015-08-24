@@ -1,5 +1,5 @@
 ﻿
 Partial Class Demos_Default
-    Inherits System.Web.UI.Page
+    Inherits BasePage
 
 End Class

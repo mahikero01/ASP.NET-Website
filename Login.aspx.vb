@@ -1,5 +1,5 @@
 ﻿
 Partial Class Login
-    Inherits System.Web.UI.Page
+    Inherits BasePage
 
 End Class
